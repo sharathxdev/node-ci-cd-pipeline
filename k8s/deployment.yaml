@@ -15,5 +15,6 @@ spec:
       containers:
         - name: node-app
           image: sharathxdev/my-node-app:latest
+          imagePullPolicy: Always
           ports:
             - containerPort: 3000
