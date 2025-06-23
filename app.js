@@ -3,7 +3,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
-  res.send('Hello from Node.js CI/CD Pipeline is working fine well done great jobbb2   !');
+  res.send('Hello from Node.js CI/CD Pipeline!');
 });
 
 app.listen(port, () => {
